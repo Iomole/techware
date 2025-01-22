@@ -31,7 +31,7 @@ Education & Accreditations:
 • Master of Business Administration (MBA)
 • Fellow, Institute of Management Consultants United Kingdom (FIMC)`,
     linkedin: "https://www.linkedin.com/in/nasiru-izegwire-911aa817?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    email: "nasiru@example.com"
+    email: "nasiru@techware.ng"
   },
   {
     name: "Sarah Johnson",
