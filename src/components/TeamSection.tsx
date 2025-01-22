@@ -34,6 +34,30 @@ Education & Accreditations:
     email: "nasiru@techware.ng"
   },
   {
+    name: "Adekanmbi Adetunji Isaac",
+    role: "Key Account Manager – Banking & Financial Services",
+    image: "/lovable-uploads/905abfcd-82ac-44b8-aa36-751244886c3e.png",
+    bio: "A results-driven professional with a multifaceted career spanning banking, fintech, oil and gas, and IT solutions, Adekanmbi combines sector-specific expertise with strategic account management to deliver value-driven outcomes for financial institutions.",
+    extendedBio: `Focus Area: Banking & Financial Institutions
+
+Key Responsibilities:
+• Market Expansion: Identify and capitalize on high-potential market opportunities, crafting tailored sales strategies to exceed revenue targets and drive sustainable growth.
+• Client-Centric Solutions: Assess clients' IT infrastructure needs, design customized product recommendations, and align solutions to enhance operational efficiency and digital transformation.
+• Relationship Leadership: Cultivate long-term partnerships with key stakeholders, ensuring alignment between client objectives and Techware's innovative IT offerings.
+
+Professional Journey:
+• Banking Foundations: Launched career as an E-channel Assistant & Customer Service Officer, honing expertise in digital banking solutions and client relationship management.
+• Fintech Innovation: Transitioned to a Quality Assurance Analyst role, optimizing customer experience through rigorous process audits and resolution quality improvements.
+• Financial Acumen: Advanced to Accountant in the oil and gas sector, overseeing financial reporting, budgeting, and compliance, while contributing to data-driven decision-making.
+• Strategic Account Management: Now excelling as a Key Account Manager at Techware, leveraging cross-industry insights to bridge technology gaps for banking clients and accelerate sales performance.
+
+Education & Expertise:
+• Bachelor of Science (B.Sc.) in Purchasing and Supply Management
+• Core Competencies: Strategic sales planning, client lifecycle management, financial systems analysis, and IT solution integration.`,
+    linkedin: "https://www.linkedin.com/in/adekanmbi-adetunji-b83839102?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "adetunji@techware.ng"
+  },
+  {
     name: "Sarah Johnson",
     role: "Technical Director",
     bio: "Sarah brings extensive expertise in enterprise solutions and cybersecurity implementation.",

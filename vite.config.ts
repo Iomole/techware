@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import path from 'path'
-import type { Connect } from 'vite'
+import type { ServerOptions } from 'vite'
 
 export default defineConfig({
   plugins: [react()],
@@ -14,13 +14,16 @@ export default defineConfig({
   server: {
     port: 8080,
     host: '::',
-    middleware: [
-      (req: Connect.IncomingMessage, res: Connect.ServerResponse, next: Connect.NextFunction) => {
-        if (req.url?.indexOf('.') === -1) {
-          req.url = '/index.html'
+    proxy: {
+      // Handle client-side routing
+      '/': {
+        target: 'http://localhost:8080',
+        bypass: (req) => {
+          if (req.url?.indexOf('.') === -1) {
+            return '/index.html'
+          }
         }
-        next()
       }
-    ]
-  },
+    }
+  } satisfies ServerOptions,
 })
