@@ -58,19 +58,21 @@ Education & Expertise:
     email: "adetunji@techware.ng"
   },
   {
-    name: "Sarah Johnson",
-    role: "Technical Director",
-    bio: "Sarah brings extensive expertise in enterprise solutions and cybersecurity implementation.",
-    linkedin: "https://linkedin.com",
-    email: "sarah@example.com"
-  },
-  {
-    name: "Michael Chen",
-    role: "Solutions Architect",
-    bio: "Michael specializes in designing scalable infrastructure solutions for enterprise clients.",
-    linkedin: "https://linkedin.com",
-    email: "michael@example.com"
-  },
+    name: "Benjamin Igelle",
+    role: "Head of Marketing and Business Development",
+    image: "/lovable-uploads/950dec39-5fd5-4391-8fc0-353e38fb9463.png",
+    bio: "A dynamic and fast-rising business consultant, recognized for his expertise in Sales, Business Development, and Digital Marketing.",
+    extendedBio: `Benjamin is a dynamic and fast-rising business consultant, recognized for his expertise in Sales, Business Development, and Digital Marketing. He currently sits as the Head of Marketing and Business Development, driving growth and strategic initiatives.
+
+Education & Expertise:
+• Bachelor's degree in Marketing from the University of Calabar
+• MBA from Ahmadu Bello University, Zaria
+• Specialized in strategic marketing and business leadership
+
+Known for his innovative approach and results-driven mindset, Benjamin leads strategic marketing initiatives and business development efforts at Techware, consistently delivering impactful results and driving organizational growth.`,
+    linkedin: "https://www.linkedin.com/in/benjamin-igelle-a137a9218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "benjamin@techware.ng"
+  }
 ];
 
 export const TeamSection = () => {
