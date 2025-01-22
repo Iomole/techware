@@ -1,24 +1,37 @@
 import { motion } from "framer-motion";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { Linkedin, Mail } from "lucide-react";
+import { Linkedin, Mail, ChevronDown, ChevronUp } from "lucide-react";
+import { useState } from "react";
 
 interface TeamMember {
   name: string;
   role: string;
   image?: string;
   bio: string;
+  extendedBio?: string;
   linkedin?: string;
   email?: string;
 }
 
 const teamMembers: TeamMember[] = [
   {
-    name: "John Doe",
-    role: "Chief Executive Officer",
-    bio: "With over 15 years of experience in IT consulting, John leads our strategic vision and operations.",
-    linkedin: "https://linkedin.com",
-    email: "john@example.com"
+    name: "Nasiru IZEGWIRE",
+    role: "Managing Director & Chief Executive Officer",
+    image: "/lovable-uploads/b3b36ab0-1f66-4560-903e-106836d607ab.png",
+    bio: "A visionary leader with over 15 years of distinguished experience in the Computer Technology (CompTech) sector across West Africa and global markets.",
+    extendedBio: `Nasiru brings a wealth of expertise in strategic leadership, digital innovation, and cross-industry collaboration. His career spans executive roles with leading IT enterprises in Nigeria, India, and the United Kingdom, where he consistently drove transformative growth, operational excellence, and market expansion.
+
+Professional Highlights:
+• Appointed in 2020 by Nigeria's Honourable Minister of Communications and Digital Economy to the Ministerial Committee on Performance Improvement for Galaxy Backbone Limited
+• Proven track record in building high-performing teams and fostering strategic partnerships
+• Serves as Chief Sales Officer (CSO), spearheading revenue growth initiatives
+
+Education & Accreditations:
+• Master of Business Administration (MBA)
+• Fellow, Institute of Management Consultants United Kingdom (FIMC)`,
+    linkedin: "https://www.linkedin.com/in/nasiru-izegwire-911aa817?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "nasiru@example.com"
   },
   {
     name: "Sarah Johnson",
@@ -37,6 +50,12 @@ const teamMembers: TeamMember[] = [
 ];
 
 export const TeamSection = () => {
+  const [expandedMember, setExpandedMember] = useState<string | null>(null);
+
+  const toggleBio = (name: string) => {
+    setExpandedMember(expandedMember === name ? null : name);
+  };
+
   return (
     <section className="py-16 bg-gradient-to-br from-purple-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -76,9 +95,30 @@ export const TeamSection = () => {
                   <p className="text-sm text-primary">{member.role}</p>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    {member.bio}
-                  </p>
+                  <div className="text-gray-600 dark:text-gray-300 mb-4">
+                    <p className="mb-2">{member.bio}</p>
+                    {member.extendedBio && (
+                      <>
+                        <motion.div
+                          initial={false}
+                          animate={{ height: expandedMember === member.name ? "auto" : 0 }}
+                          className="overflow-hidden"
+                        >
+                          <p className="whitespace-pre-line mt-2">{member.extendedBio}</p>
+                        </motion.div>
+                        <button
+                          onClick={() => toggleBio(member.name)}
+                          className="flex items-center justify-center w-full mt-2 text-primary hover:text-primary/80 transition-colors"
+                        >
+                          {expandedMember === member.name ? (
+                            <>Show Less <ChevronUp className="ml-1 w-4 h-4" /></>
+                          ) : (
+                            <>Read More <ChevronDown className="ml-1 w-4 h-4" /></>
+                          )}
+                        </button>
+                      </>
+                    )}
+                  </div>
                   <div className="flex justify-center space-x-4">
                     {member.linkedin && (
                       <a
