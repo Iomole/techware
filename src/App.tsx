@@ -3,7 +3,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "next-themes";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Index from "./pages/Index";
 import Solutions from "./pages/Solutions";
 import Services from "./pages/Services";
@@ -47,6 +47,8 @@ const App = () => (
             <Route path="/services/technology-training" element={<TechnologyTraining />} />
             <Route path="/services/notap-certificate" element={<NOTAPCertificate />} />
             <Route path="/services/manage-engine" element={<ManageEngine />} />
+            {/* Catch all route - redirects to home if no match is found */}
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
