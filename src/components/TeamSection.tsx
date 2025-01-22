@@ -62,9 +62,7 @@ Education & Expertise:
     role: "Head of Marketing and Business Development",
     image: "/lovable-uploads/950dec39-5fd5-4391-8fc0-353e38fb9463.png",
     bio: "A dynamic and fast-rising business consultant, recognized for his expertise in Sales, Business Development, and Digital Marketing.",
-    extendedBio: `Benjamin is a dynamic and fast-rising business consultant, recognized for his expertise in Sales, Business Development, and Digital Marketing. He currently sits as the Head of Marketing and Business Development, driving growth and strategic initiatives.
-
-Education & Expertise:
+    extendedBio: `Education & Expertise:
 • Bachelor's degree in Marketing from the University of Calabar
 • MBA from Ahmadu Bello University, Zaria
 • Specialized in strategic marketing and business leadership
