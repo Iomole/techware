@@ -61,7 +61,7 @@ Education & Expertise:
     name: "Benjamin Igelle",
     role: "Head of Marketing and Business Development",
     image: "/lovable-uploads/950dec39-5fd5-4391-8fc0-353e38fb9463.png",
-    bio: "A dynamic and fast-rising business consultant, recognized for his expertise in Sales, Business Development, and Digital Marketing.",
+    bio: "",
     extendedBio: `Benjamin is a dynamic and fast-rising business consultant, recognized for his expertise in Sales, Business Development, and Digital Marketing. He holds a Bachelor's degree in Marketing from the prestigious University of Calabar and an MBA from the renowned Ahmadu Bello University, Zaria, where he honed his skills in strategic marketing and business leadership. Known for his innovative approach and results-driven mindset`,
     linkedin: "https://www.linkedin.com/in/benjamin-igelle-a137a9218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     email: "benjamin@techware.ng"
