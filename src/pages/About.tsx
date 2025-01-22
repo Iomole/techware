@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { motion } from "framer-motion";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
+import { TeamSection } from "@/components/TeamSection";
 
 const About = () => {
   return (
@@ -89,6 +90,8 @@ const About = () => {
           </motion.div>
         </div>
       </section>
+      
+      <TeamSection />
       <Contact />
       <Footer />
     </main>
