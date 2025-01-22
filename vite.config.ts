@@ -11,6 +11,15 @@ export default defineConfig({
     },
   },
   server: {
-    historyApiFallback: true,
+    port: 8080,
+    host: '::',
+    middleware: [
+      (req, res, next) => {
+        if (req.url.indexOf('.') === -1) {
+          req.url = '/index.html'
+        }
+        next()
+      }
+    ]
   },
 })
