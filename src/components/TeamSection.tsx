@@ -78,7 +78,7 @@ Key Responsibilities:
 • Driving Lead Generation & Conversion: Build and nurture relationships to convert prospects into long-term customers.
 • Managing Social Media: Create buzz-worthy posts and campaigns that amplify brand presence and cybersecurity awareness.
 • Front Desk Excellence: Serve as the welcoming face of the company, providing exceptional service and managing key communications.`,
-    email: "ada@techware.ng"
+    email: "blessing@techware.ng"
   }
 ];
 
