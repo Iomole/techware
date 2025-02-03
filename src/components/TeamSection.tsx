@@ -65,6 +65,20 @@ Education & Expertise:
     extendedBio: `Benjamin is a dynamic and fast-rising business consultant, recognized for his expertise in Sales, Business Development, and Digital Marketing. He holds a Bachelor's degree in Marketing from the prestigious University of Calabar and an MBA from the renowned Ahmadu Bello University, Zaria, where he honed his skills in strategic marketing and business leadership. Known for his innovative approach and results-driven mindset`,
     linkedin: "https://www.linkedin.com/in/benjamin-igelle-a137a9218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     email: "benjamin@techware.ng"
+  },
+  {
+    name: "ADAHGLAMA ADA BLESSING",
+    role: "Marketing and Communication Executive",
+    image: "/lovable-uploads/fad62f42-580a-42c4-b11b-de857c362dfb.png",
+    bio: "As a passionate and results-driven Cybersecurity Specialist, I thrive at the intersection of security and communication.",
+    extendedBio: `As a passionate and results-driven Cybersecurity Specialist, I thrive at the intersection of security and communication. With hands-on experience in risk analysis, security audits, and crafting engaging cybersecurity awareness programs, I bring both technical expertise and creative flair to everything I do. My focus? Enhancing cyber resilience while making complex security topics accessible to all.
+
+Key Responsibilities:
+• Crafting Compelling Content: Develop dynamic content that not only informs but also engages and empowers audiences.
+• Driving Lead Generation & Conversion: Build and nurture relationships to convert prospects into long-term customers.
+• Managing Social Media: Create buzz-worthy posts and campaigns that amplify brand presence and cybersecurity awareness.
+• Front Desk Excellence: Serve as the welcoming face of the company, providing exceptional service and managing key communications.`,
+    email: "ada@techware.ng"
   }
 ];
 
