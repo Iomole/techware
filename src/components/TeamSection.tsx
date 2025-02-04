@@ -70,14 +70,14 @@ Education & Expertise:
     name: "ADAHGLAMA ADA BLESSING",
     role: "Marketing and Communication Executive",
     image: "/lovable-uploads/fad62f42-580a-42c4-b11b-de857c362dfb.png",
-    bio: "I thrive at the intersection of security and communication.",
-    extendedBio: `With hands-on experience in risk analysis, security audits, and crafting engaging cybersecurity awareness programs, I bring both technical expertise and creative flair to everything I do. My focus? Enhancing cyber resilience while making complex security topics accessible to all. I hold a Bachelor's degree in Cyber Security.
+    bio: "She thrives at the intersection of security and communication.",
+    extendedBio: `With hands-on experience in risk analysis, security audits, and crafting engaging cybersecurity awareness programs, she brings both technical expertise and creative flair to everything she does. Her focus is enhancing cyber resilience while making complex security topics accessible to all. She holds a Bachelor's degree in Cyber Security.
 
 Key Responsibilities:
-• Crafting Compelling Content: Develop dynamic content that not only informs but also engages and empowers audiences.
-• Driving Lead Generation & Conversion: Build and nurture relationships to convert prospects into long-term customers.
-• Managing Social Media: Create buzz-worthy posts and campaigns that amplify brand presence and cybersecurity awareness.
-• Front Desk Excellence: Serve as the welcoming face of the company, providing exceptional service and managing key communications.`,
+• Crafting Compelling Content: Develops dynamic content that not only informs but also engages and empowers audiences.
+• Driving Lead Generation & Conversion: Builds and nurtures relationships to convert prospects into long-term customers.
+• Managing Social Media: Creates buzz-worthy posts and campaigns that amplify brand presence and cybersecurity awareness.
+• Front Desk Excellence: Serves as the welcoming face of the company, providing exceptional service and managing key communications.`,
     email: "blessing@techware.ng"
   }
 ];
