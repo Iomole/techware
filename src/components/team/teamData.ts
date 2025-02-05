@@ -1,4 +1,3 @@
-
 import { TeamMemberType } from "./types";
 
 export const teamMembers: TeamMemberType[] = [
@@ -10,6 +9,14 @@ export const teamMembers: TeamMemberType[] = [
     extendedBio: "Nasiru brings a wealth of expertise in strategic leadership, digital innovation, and cross-industry collaboration. His career spans executive roles with leading IT enterprises in Nigeria, India, and the United Kingdom, where he consistently drove transformative growth, operational excellence, and market expansion.\n\nProfessional Highlights:\n• Appointed in 2020 by Nigeria's Honourable Minister of Communications and Digital Economy to the Ministerial Committee on Performance Improvement for Galaxy Backbone Limited\n• Proven track record in building high-performing teams and fostering strategic partnerships\n• Serves as Chief Sales Officer (CSO), spearheading revenue growth initiatives\n\nEducation & Accreditations:\n• Master of Business Administration (MBA)\n• Fellow, Institute of Management Consultants United Kingdom (FIMC)",
     linkedin: "https://www.linkedin.com/in/nasiru-izegwire-911aa817?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     email: "nasiru@techware.ng"
+  },
+  {
+    name: "Georgina Okiemen",
+    role: "ICT Training Manager",
+    image: "/lovable-uploads/a5694474-8703-43a3-80e8-d15b400d1ab6.png",
+    bio: "An experienced educator and certified creative artist with a background in Political Science, dedicated to delivering excellence in ICT training and academy management.",
+    extendedBio: "Professional Background:\n• Educator at GAAT International School and Blooms Academy (2021 - 2023)\n• BSc Political Science graduate from Ambrose Alli University\n• Certified Creative Artist\n\nKey Responsibilities:\n• Training Academy Operations Management:\n  - Oversees staffing, facilities, and vendor coordination\n  - Develops corporate training strategies aligned with organizational goals\n  - Prepares and manages academy business plans and budgets\n\n• Training Development and Delivery:\n  - Collaborates with institutions for specialized training programs\n  - Supervises trainers and instructors\n  - Develops comprehensive training plans and materials\n  - Maintains training records and produces detailed reports\n\n• Business Development and Marketing:\n  - Oversees academy's website and marketing communications\n  - Manages program marketing materials\n  - Monitors market competition and identifies growth opportunities\n  - Ensures program profitability and market share expansion\n\n• Technical Oversight:\n  - Manages network infrastructure and updates\n  - Keeps abreast of technological advances\n  - Ensures training materials remain current and effective",
+    email: "georgina@techware.ng"
   },
   {
     name: "Adekanmbi Adetunji Isaac",
