@@ -1,3 +1,4 @@
+```typescript
 import { motion } from "framer-motion";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
@@ -95,6 +96,22 @@ As a Product Manager at Techware, Abdulazeez orchestrates the end-to-end lifecyc
 • AI & Machine Learning: Spearheading AI-driven projects that automate processes, predict trends, and deliver actionable insights.`,
     linkedin: "https://www.linkedin.com/in/abdulazeez-omole-0ba3311bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     email: "abdulazeez@techware.ng"
+  },
+  {
+    name: "Awawu Ezimokhai",
+    role: "Sales Executive",
+    image: "/lovable-uploads/4ba81121-a95e-4f25-81be-26fea7cde81c.png",
+    bio: "A Computer Science graduate with over 7 years of experience in the insurance industry, now bringing expertise to technology sales.",
+    extendedBio: `Professional Background:
+With over 7 years of distinguished experience in the insurance industry, she has demonstrated excellence in sales, client relationship management, and delivering tailored solutions to meet diverse customer needs.
+
+Current Role:
+As a Sales Executive at Techware, she has successfully transitioned into the technology sales sector, expanding her expertise into IT services and enterprise solutions. Her focus includes:
+• Engaging prospects in the microfinance and insurance sectors
+• Identifying new business opportunities
+• Creating impactful proposals
+• Offering comprehensive enterprise solutions and professional services`,
+    email: "awawu@techware.ng"
   }
 ];
 
@@ -197,3 +214,4 @@ export const TeamSection = () => {
     </section>
   );
 };
+```
