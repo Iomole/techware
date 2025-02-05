@@ -92,9 +92,8 @@ Professional Expertise
 As a Product Manager at Techware, Abdulazeez orchestrates the end-to-end lifecycle of innovative solutions, merging technical expertise with strategic vision. His core competencies include:
 
 • Software Development: Designing user-centric applications that streamline operations and enhance user experiences.
-• AI & Machine Learning: Spearheading AI-driven projects that automate processes, predict trends, and deliver actionable insights.
-• Hardware Infrastructure: Managing server architectures and cloud systems for scalability, and cost-efficiency.
-• Business Applications: Developing ERP, CRM, and custom enterprise tools that align with organizational goals.`,
+• AI & Machine Learning: Spearheading AI-driven projects that automate processes, predict trends, and deliver actionable insights.`,
+    linkedin: "https://www.linkedin.com/in/abdulazeez-omole-0ba3311bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     email: "abdulazeez@techware.ng"
   }
 ];
