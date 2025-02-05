@@ -79,6 +79,23 @@ Key Responsibilities:
 • Managing Social Media: Creates buzz-worthy posts and campaigns that amplify brand presence and cybersecurity awareness.
 • Front Desk Excellence: Serves as the welcoming face of the company, providing exceptional service and managing key communications.`,
     email: "blessing@techware.ng"
+  },
+  {
+    name: "Abdulazeez Omole",
+    role: "Product Manager",
+    image: "/lovable-uploads/772b3f5e-f252-480e-9c0c-6e71ec5751b4.png",
+    bio: "Bridging Technology and Business Excellence",
+    extendedBio: `Academic Background
+Abdulazeez Omole holds a Degree in Computer Science, equipping him with a robust foundation in computational theory, programming, and systems design. His academic rigor and passion for emerging technologies laid the groundwork for a dynamic career in tech leadership.
+
+Professional Expertise
+As a Product Manager at Techware, Abdulazeez orchestrates the end-to-end lifecycle of innovative solutions, merging technical expertise with strategic vision. His core competencies include:
+
+• Software Development: Designing user-centric applications that streamline operations and enhance user experiences.
+• AI & Machine Learning: Spearheading AI-driven projects that automate processes, predict trends, and deliver actionable insights.
+• Hardware Infrastructure: Managing server architectures and cloud systems for scalability, and cost-efficiency.
+• Business Applications: Developing ERP, CRM, and custom enterprise tools that align with organizational goals.`,
+    email: "abdulazeez@techware.ng"
   }
 ];
 
