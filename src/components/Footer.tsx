@@ -1,3 +1,4 @@
+
 import { MapPin, Phone, Mail, Globe, Facebook, Instagram, Linkedin } from "lucide-react";
 import { Separator } from "./ui/separator";
 
@@ -26,7 +27,7 @@ export const Footer = () => {
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-white/80 mt-1 flex-shrink-0" />
                 <p className="text-white/80">
-                  <span className="font-semibold">Lagos:</span> 10th Floor, Standard Chartered Building, Plot 142, Ahmadu Bello Way, VI, Lagos
+                  <span className="font-semibold">Lagos:</span> 16 kafayat abdulrazaq Street, Lekki phase 1 Lagos state
                 </p>
               </div>
             </div>
