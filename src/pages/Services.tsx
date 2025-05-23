@@ -19,11 +19,11 @@ const ServicesPage = () => {
       >
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&q=80"
-            alt="Professional working with technology"
-            className="w-full h-full object-cover opacity-30"
+            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1920&q=80"
+            alt="African professional working with technology"
+            className="w-full h-full object-cover opacity-50"
           />
-          <div className="absolute inset-0 bg-white/70"></div>
+          <div className="absolute inset-0 bg-white/50"></div>
         </div>
         
         <div className="max-w-7xl mx-auto text-center relative z-10">

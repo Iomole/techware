@@ -19,11 +19,11 @@ const EnterpriseApplications = () => {
         >
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&q=80"
-              alt="Professional using enterprise applications"
-              className="w-full h-full object-cover opacity-30"
+              src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1920&q=80"
+              alt="African professional using enterprise applications"
+              className="w-full h-full object-cover opacity-50"
             />
-            <div className="absolute inset-0 bg-white/70"></div>
+            <div className="absolute inset-0 bg-white/50"></div>
           </div>
           
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

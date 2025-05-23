@@ -14,11 +14,11 @@ export const Hero = () => {
       {/* Background Tech Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=1920&q=80"
-          alt="Professional tech team collaborating"
-          className="w-full h-full object-cover opacity-20"
+          src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&w=1920&q=80"
+          alt="African tech professionals collaborating"
+          className="w-full h-full object-cover opacity-40"
         />
-        <div className="absolute inset-0 bg-[#ea384c]/80"></div>
+        <div className="absolute inset-0 bg-[#ea384c]/60"></div>
       </div>
 
       <div className="text-center max-w-4xl mx-auto relative z-10">
@@ -54,7 +54,7 @@ export const Hero = () => {
               Get in Touch
             </Button>
           </Link>
-        </motion.div>
+        </div>
       </div>
     </motion.div>
   );

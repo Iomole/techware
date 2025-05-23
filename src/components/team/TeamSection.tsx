@@ -16,9 +16,9 @@ export const TeamSection = () => {
       {/* Background Tech Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=1920&q=80"
-          alt="Technology team collaboration"
-          className="w-full h-full object-cover opacity-10"
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1920&q=80"
+          alt="African tech team collaboration"
+          className="w-full h-full object-cover opacity-30"
         />
       </div>
       

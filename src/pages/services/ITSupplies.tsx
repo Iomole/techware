@@ -22,11 +22,11 @@ const ITSupplies = () => {
         >
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=1920&q=80"
-              alt="Technology professionals with IT equipment"
-              className="w-full h-full object-cover opacity-30"
+              src="https://images.unsplash.com/photo-1559028006-448665bd7c7f?auto=format&fit=crop&w=1920&q=80"
+              alt="African technology professionals with IT equipment"
+              className="w-full h-full object-cover opacity-50"
             />
-            <div className="absolute inset-0 bg-green-50/80"></div>
+            <div className="absolute inset-0 bg-green-50/60"></div>
           </div>
           
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

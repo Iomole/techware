@@ -19,11 +19,11 @@ const SolutionsPage = () => {
       >
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1920&q=80"
-            alt="Technology professional at work"
-            className="w-full h-full object-cover opacity-40"
+            src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1920&q=80"
+            alt="African technology professional at work"
+            className="w-full h-full object-cover opacity-60"
           />
-          <div className="absolute inset-0 bg-blue-50/80"></div>
+          <div className="absolute inset-0 bg-blue-50/60"></div>
         </div>
         
         <div className="max-w-7xl mx-auto text-center relative z-10">
