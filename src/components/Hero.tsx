@@ -16,9 +16,26 @@ export const Hero = () => {
         <img 
           src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&w=1920&q=80"
           alt="African tech professionals collaborating"
-          className="w-full h-full object-cover opacity-40"
+          className="w-full h-full object-cover opacity-60"
         />
-        <div className="absolute inset-0 bg-[#ea384c]/60"></div>
+        <div className="absolute inset-0 bg-[#ea384c]/40"></div>
+      </div>
+
+      {/* Additional Tech Images */}
+      <div className="absolute top-20 left-10 z-5 hidden lg:block">
+        <img 
+          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80"
+          alt="African developer coding"
+          className="w-32 h-32 rounded-lg object-cover opacity-70 shadow-lg"
+        />
+      </div>
+
+      <div className="absolute bottom-20 right-10 z-5 hidden lg:block">
+        <img 
+          src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=400&q=80"
+          alt="African tech team meeting"
+          className="w-40 h-28 rounded-lg object-cover opacity-70 shadow-lg"
+        />
       </div>
 
       <div className="text-center max-w-4xl mx-auto relative z-10">
@@ -54,7 +71,7 @@ export const Hero = () => {
               Get in Touch
             </Button>
           </Link>
-        </div>
+        </motion.div>
       </div>
     </motion.div>
   );
