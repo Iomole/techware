@@ -1,3 +1,4 @@
+
 import { motion } from 'framer-motion';
 import { Button } from './ui/button';
 import { Link } from 'react-router-dom';
@@ -8,9 +9,19 @@ export const Hero = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="min-h-screen flex items-center justify-center px-4 bg-[#ea384c]"
+      className="min-h-screen flex items-center justify-center px-4 bg-gradient-to-br from-[#ea384c] to-[#d02e40] relative overflow-hidden"
     >
-      <div className="text-center max-w-4xl mx-auto">
+      {/* Background Tech Image */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=1920&q=80"
+          alt="Professional tech team collaborating"
+          className="w-full h-full object-cover opacity-20"
+        />
+        <div className="absolute inset-0 bg-[#ea384c]/80"></div>
+      </div>
+
+      <div className="text-center max-w-4xl mx-auto relative z-10">
         <motion.h1 
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

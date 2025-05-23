@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { Code, Server, Smartphone, Globe, Database, Cloud, Cog } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -51,14 +52,23 @@ const BespokeDevelopment = () => {
     <div className="min-h-screen bg-background">
       <Navigation />
       
-      {/* Hero Section */}
+      {/* Hero Section with Background Image */}
       <motion.section 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
-        className="pt-24 pb-16 px-4 bg-[#ea384c]"
+        className="pt-24 pb-16 px-4 bg-gradient-to-br from-[#ea384c] to-[#d02e40] relative overflow-hidden"
       >
-        <div className="max-w-7xl mx-auto text-center">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1920&q=80"
+            alt="Software developer coding"
+            className="w-full h-full object-cover opacity-20"
+          />
+          <div className="absolute inset-0 bg-[#ea384c]/70"></div>
+        </div>
+        
+        <div className="max-w-7xl mx-auto text-center relative z-10">
           <Code className="w-16 h-16 text-white mx-auto mb-6" />
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Bespoke Development Solutions

@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -6,19 +7,19 @@ const featuredProducts = [
     name: "ThinkPad X1 Carbon",
     category: "Laptop",
     description: "14\" Enterprise Laptop with Intel Core i7",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80"
   },
   {
     name: "OptiPlex 7090",
     category: "Desktop",
     description: "Business Desktop with Intel Core i5",
-    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=800&q=80"
   },
   {
     name: "LaserJet Enterprise M507",
     category: "Printer",
     description: "High-performance monochrome laser printer",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=800&q=80"
   }
 ];
 

@@ -1,7 +1,9 @@
+
 import { motion } from "framer-motion";
 import { BookOpen, GraduationCap, Users, Target, ArrowRight, Brain, Code, Database, Shield } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Navigation } from "@/components/Navigation";
 
 const trainingCategories = [
   {
@@ -33,9 +35,25 @@ const trainingCategories = [
 const TechnologyTraining = () => {
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section className="pt-24 pb-16 px-4">
-        <div className="max-w-7xl mx-auto">
+      <Navigation />
+      
+      {/* Hero Section with Background Image */}
+      <motion.section 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        className="pt-24 pb-16 px-4 relative overflow-hidden bg-gradient-to-br from-indigo-50 to-purple-50"
+      >
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&q=80"
+            alt="Professional in technology training environment"
+            className="w-full h-full object-cover opacity-40"
+          />
+          <div className="absolute inset-0 bg-indigo-50/80"></div>
+        </div>
+        
+        <div className="max-w-7xl mx-auto relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -108,7 +126,7 @@ const TechnologyTraining = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-center bg-gray-50 rounded-lg p-8"
+            className="text-center bg-white/80 backdrop-blur-sm rounded-lg p-8"
           >
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               Ready to enhance your technology skills?
@@ -124,7 +142,7 @@ const TechnologyTraining = () => {
             </Button>
           </motion.div>
         </div>
-      </section>
+      </motion.section>
     </div>
   );
 };
